@@ -30,6 +30,18 @@ a {
   margin: 0px;
 }
 
+@media (max-width: 600px) {
+
+  .toplogopur,
+  .toplogopurnext {
+    display: none;
+  }
+
+  #header #first-container {
+    justify-content: center;
+  }
+}
+
 a:hover {
   color: #73c5eb;
   text-decoration: none;
